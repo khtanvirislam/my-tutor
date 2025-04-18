@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tutor</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <!-- header section starts-->
+    <header>
+      <nav>
+        <div class="bg-white">
+          <div
+            class="flex items-center justify-between custom-container py-3 px-10"
+          >
+            <div class="logo flex items-center gap-2 w-2/12">
+              <div class="icon">
+                <svg
+                  width="42"
+                  height="41"
+                  viewBox="0 0 44 42"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="Group">
+                    <path
+                      id="Vector"
+                      d="M21.5998 41.7C9.89978 41.5 0.399781 32.1 0.599781 20.7C0.799781 9.39996 10.7998 -4.33922e-05 22.2998 0.299957C33.9998 0.599957 43.2998 9.99996 43.1998 21.4C43.0998 32.7 33.3998 41.9 21.5998 41.7Z"
+                      fill="#1B99D4"
+                    />
+                    <path
+                      id="Vector_2"
+                      d="M23.417 21.4C25.917 20.3 27.917 21 29.517 23C31.517 25.5 32.617 28.3 32.117 31.5C32.017 32.6 30.617 32.7 29.717 33C24.617 34.6 19.517 34.3 14.317 32.9C12.317 32.3 11.717 31.2 12.117 29.4C12.617 26.7 13.817 24.3 15.717 22.3C17.017 20.9 18.517 20.3 20.317 21.3C21.317 21 22.117 21.3 22.117 22.4C22.217 24.6 22.217 26.9 22.117 29.1C22.117 27.3 22.117 25.4 22.217 23.6C22.417 22.8 21.917 21.6 23.417 21.4Z"
+                      fill="white"
+                    />
+                    <path
+                      id="Vector_3"
+                      d="M22.3173 20.2C25.6862 20.2 28.4173 17.4689 28.4173 14.1C28.4173 10.7311 25.6862 8 22.3173 8C18.9483 8 16.2173 10.7311 16.2173 14.1C16.2173 17.4689 18.9483 20.2 22.3173 20.2Z"
+                      fill="white"
+                    />
+                    <g id="Vector_4">
+                      <path
+                        d="M20.2671 19.8C21.2671 19.9 22.1671 19.9 23.1671 20C23.1671 20.2 23.1671 20.5001 23.1671 20.7001C21.3671 23.3001 23.1671 26.4 21.5671 29.1C21.5671 27.2 21.5671 25.4 21.5671 23.5C21.5671 22.4 21.9671 21 20.2671 20.6C20.2671 20.3 20.2671 20.1 20.2671 19.8Z"
+                        fill="#1B99D4"
+                      />
+                      <path
+                        d="M22.8671 21.4H21.4671V29.1H22.8671V21.4Z"
+                        fill="#1B99D4"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <span class="text-[22.3px] text-black poppins-font font-bold"
+                >My_Tutor</span
+              >
+            </div>
+            <div
+              class="right-nav flex items-center justify-end inter-font font-medium gap-[45px] w-8/12"
+            >
+              <div class="menus">
+                <ul class="flex items-center text-[#424352] gap-[45px]">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Courses</a></li>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="#">Blogs</a></li>
+                </ul>
+              </div>
+              <div class="btn">
+                <a
+                  href="#"
+                  class="inline-block bg-[#1B99D4] text-white rounded-[5px] py-[9px] px-[20px] font-semibold"
+                  >Apply Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero section -->
+      <div
+        class="bg-[#1B99D4] flex items-center justify-center px-6 pt-12 roboto-font"
+      >
+        <div class="custom-container hero-bg flex items-center">
+          <!-- Left content -->
+          <div class="text-white space-y-6">
+            <div
+              class="bg-white/15 inline-block px-[8px] py-[7px] rounded-[5px] text-sm font-medium"
+            >
+              Specialization over generalization
+            </div>
+            <h1 class="text-[42px] font-bold w-[455px]">
+              Advanced Data Science <br />
+              & AI Course
+            </h1>
+            <p class="text-[ 17px] font-normal leading-[24px]]">
+              Equip yourself with data science skills through live, <br />
+              interactive lectures guided by industry expert mentors
+            </p>
+            <p class="text-[28px] font-normal tracking-[0.5px]">
+              Live Interactive Classes
+            </p>
+            <button
+              class="bg-white text-black px-6 py-3 rounded-lg flex items-center gap-2 font-medium shadow hover:bg-gray-100"
+            >
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.125 9.375V11.875C13.125 12.2065 12.9933 12.5245 12.7589 12.7589C12.5245 12.9933 12.2065 13.125 11.875 13.125H3.125C2.79348 13.125 2.47554 12.9933 2.24112 12.7589C2.0067 12.5245 1.875 12.2065 1.875 11.875V9.375"
+                  stroke="#272727"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M4.375 6.25L7.5 9.375L10.625 6.25"
+                  stroke="#272727"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M7.5 9.375V1.875"
+                  stroke="#272727"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              Download Brochure
+            </button>
+          </div>
+          <!-- img -->
+          <div>
+            <img
+              src="./assets/img/hero-img.png"
+              alt=""
+              class="hero-bg h-[518px] w-[564px] scale-x-[-1] px-10"
+            />
+          </div>
+          <!-- Right Form -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-8 w-full max-w-md mx-auto"
+          >
+            <h2 class="text-2xl font-bold mb-1 text-gray-800">
+              We’re here to help!
+            </h2>
+            <p class="text-sm text-gray-500 mb-6">
+              Please contact us in case of any query.
+            </p>
+            <form class="space-y-4">
+              <input
+                type="text"
+                placeholder="Your name"
+                class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              />
+              <input
+                type="email"
+                placeholder="Your email address"
+                class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              />
+              <input
+                type="tel"
+                placeholder="Your phone number"
+                class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              />
+              <select
+                class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              >
+                <option>Select Course</option>
+                <option>Data Science</option>
+                <option>AI & ML</option>
+                <option>Web Development</option>
+              </select>
+              <button
+                type="submit"
+                class="bg-[#1B99D4] text-white px-6 py-3 font-medium flex items-center rounded-[5px] gap-3"
+              >
+                Get in Touch
+                <svg
+                  width="12"
+                  height="11"
+                  viewBox="0 0 12 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.13196 4.78765L5.10264 0.993976L6.15836 0L12 5.5L6.15836 11L5.10264 10.006L9.13196 6.21235H0V4.78765H9.13196Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section ends -->
+
+    
+  </body>
+</html>
